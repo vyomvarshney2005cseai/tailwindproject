@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-"tailwind": "npx @tailwindcss/cli -i ./style2.css -o ./output2.css --watch",
+    
+  "build": "tailwindcss -i ./style2.css -o ./output2.css",
+  "dev": "tailwindcss -i ./style2.css -o ./output2.css --watch",
+    "tailwind": "npx @tailwindcss/cli -i ./style2.css -o ./output2.css --watch",
     "prettier": "npx prettier --write **/*.html"
   },
   "keywords": [],
